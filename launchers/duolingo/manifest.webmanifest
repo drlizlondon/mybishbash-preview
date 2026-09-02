@@ -1,0 +1,17 @@
+{
+  "name": "Duolingo · myBishBash Test",
+  "short_name": "Duolingo Test",
+  "id": "https://drlizlondon.github.io/mybishbash-preview/intercept/duolingo",
+  "start_url": "https://drlizlondon.github.io/mybishbash-preview/intercept/duolingo",
+  "scope": "https://drlizlondon.github.io/mybishbash-preview/",
+  "display": "standalone",
+  "background_color": "#F7F2EE",
+  "theme_color": "#F7F2EE",
+  "icons": [
+    {
+      "src": "/mybishbash-preview/icons/mybishbash-cover.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

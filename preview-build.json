@@ -1,0 +1,13 @@
+{
+  "preview": true,
+  "appName": "myBishBash Test",
+  "origin": "https://drlizlondon.github.io",
+  "basePath": "/mybishbash-preview/",
+  "rootUrl": "https://drlizlondon.github.io/mybishbash-preview/",
+  "homeUrl": "https://drlizlondon.github.io/mybishbash-preview/home",
+  "safariInstallUrl": "https://drlizlondon.github.io/mybishbash-preview/install/safari/",
+  "safariStartUrl": "https://drlizlondon.github.io/mybishbash-preview/intercept/safari",
+  "sourceSha": "2e41c631967315df7a3f166c5d0c0cb91113f614",
+  "sourceVersion": "preview-2e41c631967315df7a3f166c5d0c0cb91113f614",
+  "builtAt": "2026-09-02T15:32:27.829Z"
+}

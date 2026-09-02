@@ -1,0 +1,8 @@
+# Cloudflare Pages SPA fallback.
+# Real static files (launcher pages, /assets, /icons, manifest, etc.) are served
+# directly — Pages matches an existing asset before applying this rule. Every
+# other path is an app/marketing route resolved at runtime in RootRouter
+# (e.g. /early-access, /invite, /about, /download, /home), so serve index.html
+# with a 200 and let the SPA boot and route. Without this, direct navigation to
+# those paths returns the 404 page — which is why the signup links were dead.
+/*    /index.html    200

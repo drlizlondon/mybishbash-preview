@@ -1,0 +1,25 @@
+{
+  "name": "myBishBash Test",
+  "short_name": "myBishBash Test",
+  "id": "https://drlizlondon.github.io/mybishbash-preview/",
+  "description": "Private little reminders from yourself.",
+  "start_url": "https://drlizlondon.github.io/mybishbash-preview/home",
+  "scope": "https://drlizlondon.github.io/mybishbash-preview/",
+  "display": "standalone",
+  "background_color": "#F7F2EE",
+  "theme_color": "#F7F2EE",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/mybishbash-cover.png",
+      "sizes": "1254x1254",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/mybishbash-cover.png",
+      "sizes": "1254x1254",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

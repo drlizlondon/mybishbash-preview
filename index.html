@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Analytics load only after explicit consent — see public/mbb-consent.js.
+         No GA4 request fires until a visitor accepts the banner it shows. -->
+    <script defer src="/mybishbash-preview/mbb-consent.js"></script>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#07090A" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#F7F2EE" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="myBishBash Test" />
+
+    <!-- Primary SEO -->
+    <title>myBishBash Test</title>
+    <meta
+      name="description"
+      content="myBishBash is the intentional-phone app. It adds a check-in before the apps that eat your time and resurfaces what you meant to do — so professionals, students and self-improvers spend their attention on purpose. No blockers, no guilt."
+    />
+    <meta name="author" content="myBishBash" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://mybishbash.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="myBishBash" />
+    <meta property="og:title" content="myBishBash — Shape your attention intentionally" />
+    <meta
+      property="og:description"
+      content="The intentional-phone app. myBishBash puts a check-in in front of the apps that eat your time, and resurfaces the things you meant to do. No blockers, no guilt — you stay in control."
+    />
+    <meta property="og:url" content="https://mybishbash.app/" />
+    <meta property="og:image" content="https://mybishbash.app/icons/mybishbash-cover.png" />
+    <meta property="og:image:alt" content="The myBishBash app showing a reminder card" />
+    <meta property="og:locale" content="en_GB" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="myBishBash — Shape your attention intentionally" />
+    <meta
+      name="twitter:description"
+      content="The intentional-phone app. A check-in before the apps that eat your time, plus reminders for the things you meant to do. No blockers, no guilt."
+    />
+    <meta name="twitter:image" content="https://mybishbash.app/icons/mybishbash-cover.png" />
+    <meta name="twitter:image:alt" content="The myBishBash app showing a reminder card" />
+
+    <link rel="manifest" href="/mybishbash-preview/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/mybishbash-preview/icons/mybishbash-cover.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://mybishbash.app/#org",
+          "name": "myBishBash",
+          "url": "https://mybishbash.app/",
+          "logo": "https://mybishbash.app/icons/mybishbash-cover.png"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://mybishbash.app/#website",
+          "name": "myBishBash",
+          "url": "https://mybishbash.app/",
+          "publisher": { "@id": "https://mybishbash.app/#org" }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "myBishBash",
+          "alternateName": "myBishBash — the intentional-phone app",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Digital wellbeing",
+          "operatingSystem": "iOS, Android, Web",
+          "slogan": "Shape your attention intentionally",
+          "description": "myBishBash is an intentional-phone app. It adds a check-in before the apps that eat your time and resurfaces the things you meant to do, helping people spend their attention on purpose. Unlike app blockers, screen-time tools or habit trackers, it acts in the moment and leaves you in control — no hard lock-outs and no guilt.",
+          "url": "https://mybishbash.app/",
+          "featureList": [
+            "Pause: a check-in before the apps that pull you in",
+            "Personal Cards: short reminders you write yourself",
+            "Commitment Cards: one daily intention with a check-in",
+            "Packs: ready-made quotes and affirmations shown before chosen apps"
+          ],
+          "audience": {
+            "@type": "Audience",
+            "audienceType": "Professionals, students and self-improvers seeking intentional phone habits and accountability"
+          },
+          "offers": [
+            { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "GBP" },
+            { "@type": "Offer", "name": "Plus", "price": "3.99", "priceCurrency": "GBP" }
+          ],
+          "publisher": { "@id": "https://mybishbash.app/#org" }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is myBishBash?",
+              "acceptedAnswer": { "@type": "Answer", "text": "myBishBash is an intentional-phone app. It adds a check-in before the apps that eat your time and resurfaces the things you meant to do, so you spend your attention on purpose. It's built for professionals, students and anyone after better habits or real accountability." }
+            },
+            {
+              "@type": "Question",
+              "name": "Does myBishBash block my apps?",
+              "acceptedAnswer": { "@type": "Answer", "text": "No. There are no hard lock-outs or timers. We add a check-in and a moment of choice before the apps you pick — you can always continue." }
+            },
+            {
+              "@type": "Question",
+              "name": "How is this different from screen-time settings?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Screen-time tools measure and restrict after the fact. myBishBash acts in the moment, helping you choose on purpose rather than reporting on damage that's already done." }
+            },
+            {
+              "@type": "Question",
+              "name": "What are Personal Cards and Commitment Cards?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Personal Cards are short recurring reminders you write yourself, answerable in a tap. Commitment Cards are a single daily intention that myBishBash checks in on, so following through is on the record." }
+            },
+            {
+              "@type": "Question",
+              "name": "What's in a Pack?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Packs are ready-made sets of quotes and affirmations — think confidence, calm or motivation — that appear before your chosen apps. They nudge how you think and who you're becoming, not a list of chores." }
+            },
+            {
+              "@type": "Question",
+              "name": "Is my data private?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes. myBishBash is private by design. Your reminders and choices stay yours — we don't sell them, and there's no advertising." }
+            },
+            {
+              "@type": "Question",
+              "name": "Is there a team behind myBishBash?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes. We're a UK-based team building myBishBash because we were tired of losing hours to apps designed to keep us. You can reach us at hello@mybishbash.app." }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <script type="module" crossorigin src="/mybishbash-preview/assets/index-CIWRHioL.js"></script>
+    <link rel="modulepreload" crossorigin href="/mybishbash-preview/assets/react-DeEd9eZh.js">
+    <link rel="modulepreload" crossorigin href="/mybishbash-preview/assets/supabase-DS4euJVY.js">
+    <link rel="stylesheet" crossorigin href="/mybishbash-preview/assets/index-DNnWsMAQ.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

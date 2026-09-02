@@ -1,0 +1,17 @@
+{
+  "name": "Safari · myBishBash Test",
+  "short_name": "Safari Test",
+  "id": "https://drlizlondon.github.io/mybishbash-preview/intercept/safari",
+  "start_url": "https://drlizlondon.github.io/mybishbash-preview/intercept/safari",
+  "display": "standalone",
+  "background_color": "#F7F2EE",
+  "theme_color": "#F7F2EE",
+  "scope": "https://drlizlondon.github.io/mybishbash-preview/",
+  "icons": [
+    {
+      "src": "/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

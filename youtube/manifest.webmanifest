@@ -1,0 +1,17 @@
+{
+  "name": "YouTube · myBishBash Test",
+  "short_name": "YouTube Test",
+  "id": "https://drlizlondon.github.io/mybishbash-preview/intercept/youtube",
+  "start_url": "https://drlizlondon.github.io/mybishbash-preview/intercept/youtube",
+  "display": "standalone",
+  "background_color": "#F7F2EE",
+  "theme_color": "#F7F2EE",
+  "scope": "https://drlizlondon.github.io/mybishbash-preview/",
+  "icons": [
+    {
+      "src": "/icons/youtube-cover.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

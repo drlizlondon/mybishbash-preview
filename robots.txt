@@ -1,0 +1,6 @@
+# Content usage preferences (https://contentsignals.org): read and cite yes, AI training no.
+User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Allow: /
+
+Sitemap: https://mybishbash.app/sitemap.xml
